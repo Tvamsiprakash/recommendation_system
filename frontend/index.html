@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Recommender - Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Recommender Shop</h1>
+        <div class="search-container"> <input type="text" id="searchBar" placeholder="Search products...">
+            <button id="searchButton">Search</button>
+            <button id="clearSearchButton" style="display:none;">Clear</button>
+        </div>
+        <div class="auth-controls">
+            <span id="welcomeMessage"></span>
+            <button id="logoutBtn">Logout</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="productListing">
+            <h2>Products</h2>
+            <div id="productsContainer" class="products-grid">
+                </div>
+            <p id="productListingMessage" class="message"></p> </section>
+
+        <section id="productDetail" class="hidden">
+            <button id="backToProductsBtn">Back to Products</button>
+            <h2 id="detailProductName"></h2>
+            <img id="detailProductImage" src="" alt="Product Image">
+            <p id="detailProductPrice"></p>
+            <p id="detailProductDescription"></p>
+            <p id="detailProductCategory"></p>
+            <p>Stock: <span id="detailProductStock"></span></p>
+        </section>
+        
+        <section id="recommendations" class="hidden">
+            <h2>Recommended Products for You</h2>
+            <div id="recommendationsContainer" class="products-grid">
+                </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
