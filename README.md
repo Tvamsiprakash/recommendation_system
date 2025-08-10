@@ -105,6 +105,3 @@ Follow these steps to get the project running on your local machine.
 * -Vamsi Prakash
 
 
-***
-
-_This README.md provides a comprehensive overview of the project, its features, and instructions for running it. It can be easily added to your GitHub repository to showcase your work._
