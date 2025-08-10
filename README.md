@@ -94,6 +94,11 @@ Follow these steps to get the project running on your local machine.
 
 ***
 
+<img width="1919" height="913" alt="image" src="https://github.com/user-attachments/assets/e99da970-d680-4b11-8f31-52f45f76a3b6" />
+<img width="1891" height="444" alt="image" src="https://github.com/user-attachments/assets/8f8f8191-637a-4f28-a2d5-38c217f1025a" />
+
+
+
 ### ✍️ Author
 
 * -Vamsi Prakash
